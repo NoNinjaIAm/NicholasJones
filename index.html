@@ -66,15 +66,16 @@
                             </div><img class="img-fluid" src="assets/img/personal/GlockBirdButton.png" alt="Log Cabin"/>
                         </div>
                     </div>
-                    <!-- Portfolio Items
+                    
 
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/cake.png" alt="Tasty Cake"/>
+                            </div><img class="img-fluid" src="assets/img/personal/Cursed_Dungeon/NicholasJonesCDButton.png" alt="Tasty Cake"/>
                         </div>
                     </div>
+                    <!-- Portfolio Items
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -198,6 +199,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- Portfolio Cursed Dungeon-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
@@ -207,16 +210,74 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Cursed Dungeon</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="Tasty Cake"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <!-- Portfolio Modal - Carosel-->
+                                    <div id="carouselCD" class="carousel border border-primary slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#carouselCD" data-slide-to="0" class="active"></li>
+                                          <li data-target="#carouselCD" data-slide-to="1"></li>
+                                          <li data-target="#carouselCD" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img class="d-block w-100" src="assets/img/personal/Cursed_Dungeon/Picture1.png" alt="First slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/img/personal/Cursed_Dungeon/Picture2.png" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/img/personal/Cursed_Dungeon/Picture3.png" alt="Third slide">
+                                          </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselCD" role="button" data-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselCD" role="button" data-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+                                      </div>
+                                    <!-- -- --Portfolio Modal-- -- -->
+                                    <h3 class="text-secondary mt-2">About</h3>
+                                    <p class="mb-5 fs-1">Cursed Dungeon is a retro-style arcade game where the player is trapped in an endless dungeon where every room looks the same! 
+                                        The player has to complete a timing challenge at every door in order to progress to the next room, and the challenges become more and more frantic as the player progresses. 
+                                        Everything from the art, the coding, and the design was done by me in creating this game. 
+                                        Also, The game was designed for the Boss Rush Game Jam 2025 on Itch, the theme being "spin."
+                                        </br></br>
+                                        Cursed Dungeon was made using Unity Engine and the art was made using Resprite for IOS. 
+                                        GitHub was used for version control and the code is open-source for anyone to view. </p>
+
+                                    <h3 class="text-secondary mt-2">Designing the Game</h3>
+                                    <p class="mb-5 fs-1">I joined the game jam around 2 weeks before it was due, so I had to quickly come up with an idea and begin implementation as soon as possible. 
+                                        I drew up some project sketches and diagrams, which can be found posted on my Itch page. 
+                                        I knew I wanted to do something retro and dungeon-like because I am a huge fan of dungeon-crawler games. 
+                                        I settled on a quick idea I could implement with an eyeball spinning inside of a stone mask. 
+                                        I didn't wanna bog myself down with controls so I decided to only add one control, and that is to simply stop the eyeball when it lands on the lock sigil.</p>
+                                    
+                                    <h3 class="text-secondary mt-2">Challenges and Takeaways</h3>
+                                    <p class="mb-5 fs-1">The first week of development was spent mostly on implementation. 
+                                        I used component-oriented design whenever possible to try to keep my code modular and scalable. 
+                                        A challenge I faced with this phase was sacrificing some intuitive design-choices for time. 
+                                        Time became my biggest hinderance when it came to this project because of classes. Still, my code turned out to be passably scalable by the time the game released.
+                                        </br></br>
+                                        The second week of the game's development was entirely spent on looks and polishing. 
+                                        I had to rethink how I approached the scripting and animations several times to work with new things I wanted to add.  
+                                        I learned a ton about making scripting that works with game animations and sounds through this process. 
+                                        </br></br>
+                                        Overall this project taught me a lot about game flow and intuitive game design. 
+                                        If you would like to try the game yourself, click the link below!</p>
+                                    
+                                    <!-- Game Embedded On Thing -->
+                                    <iframe frameborder="0" class="mb-5" src="https://itch.io/embed/3292037?bg_color=095574&amp;fg_color=ffffff&amp;link_color=fe4548&amp;border_color=333333" width="80%" height="7%"><a href="https://nottheninja.itch.io/cursed-dungeon-version-09">Cursed Dungeon by Nottheninja</a></iframe>
+
+                                    <!-- Exit Button -->
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
