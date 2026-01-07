@@ -3,7 +3,7 @@
 This repository contains the source for my personal portfolio website, hosted at:  
 👉 https://noninjaiam.github.io/NicholasJones/
 
-It showcases my projects, skills, and contact info as a programmer, indie game developer, and software developer. :contentReference[oaicite:0]{index=0}
+It showcases my projects, skills, and contact info as a programmer, indie game developer, and software developer.
 
 ---
 
